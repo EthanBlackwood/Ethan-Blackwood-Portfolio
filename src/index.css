@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+
 :root {
+  --font-main: 'Inter', sans-serif;
   
+  --nav-height: 70px;
+  
+  --name-first: #18005c;
+  --name-last: #9f9fa9;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -11,6 +18,69 @@
 }
 
 body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+
+  font-family: var(--font-main); 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--nav-height);
+  background-color: #fffeff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  
+ 
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+
+}
+
+.logo-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   
 }
 
+.nav-name {
+
+}
+
+.name-last {
+ 
+}
+
+.name-header {
+  
+}
+.name-header-last {
+  display:block;
+  
+}
+
+.nav-subtitle {
+  display: block;
+  
+}
