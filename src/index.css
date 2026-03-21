@@ -9,6 +9,8 @@
   --name-last: #9f9fa9;
   --navbar-border-gray: #e6e6e6;
   --subtitle-gray: #9f9fa9;
+  --soft-text-gray: #515151
+  
 
 }
 
@@ -127,3 +129,114 @@ NAVBAR NAVBAR NAVBAR NAVBAR
 /*============================
 HEADER HEADER HEADER HEADER
 ==============================*/
+
+.header-sub-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.header-title {
+  color: var(--name-first);
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-right: 1.5rem;
+  white-space: nowrap; 
+}
+
+.header-blurb {
+  color: var(--soft-text-gray);
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+  padding-left:10%;
+  max-width: 450px; 
+}
+
+.andsymbol{
+  color: var(--subtitle-gray);
+  font-weight: 200;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+
+
+.header-action-buttons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+
+.header-action-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--name-first);
+  color: #ffffff;
+  border: 2px solid var(--name-first);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--name-first);
+}
+
+
+.btn-secondary {
+  background-color: transparent;
+  color: #333333;
+  border: 2px solid #333333;
+}
+
+.btn-secondary:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+  transition: filter 0.3s ease; 
+}
+
+.btn-secondary:hover .btn-icon {
+  filter: brightness(0) invert(1);
+}
+
+
+
+
+#header {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: auto;
+  
+  padding-left: 2%;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
