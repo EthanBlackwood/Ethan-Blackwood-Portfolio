@@ -2,6 +2,9 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import headerbackground from './assets/HeaderBackgroundImage2.png';
 import downloadIcon from './assets/downloadicon.png';
+import Mission from './Mission';
+import Tech from './Tech';
+import Projects from './Projects';
 
 const Home = () => {
     
@@ -27,6 +30,10 @@ const Home = () => {
           </a>
         </div>
       </div>
+
+      <Mission />
+      <Tech />
+      <Projects />
 
     </main>
     );
