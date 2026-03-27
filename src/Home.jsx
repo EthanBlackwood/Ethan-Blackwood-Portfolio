@@ -5,6 +5,8 @@ import downloadIcon from './assets/downloadicon.png';
 import Mission from './Mission';
 import Tech from './Tech';
 import Projects from './Projects';
+import Experience from './Experience';
+import Education from './Education';
 
 const Home = () => {
     
@@ -34,6 +36,8 @@ const Home = () => {
       <Mission />
       <Tech />
       <Projects />
+      <Experience />
+      <Education />
 
     </main>
     );

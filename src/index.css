@@ -525,3 +525,181 @@ PROJECTS PROJECTS PROJECTS PROJECTS
   margin: 0;
 }
 
+
+/*============================
+EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
+==============================*/
+
+.experience-section {
+  padding: 5rem 2rem;
+  background-color: var(--off-gray);
+}
+
+.experience-container {
+  max-width: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-header {
+  text-align: left;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.experience-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+}
+
+
+.experience-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 0px;
+  padding: 2rem;
+  gap: 2.5rem;
+  transition: all 0.3s ease;
+  
+}
+
+.experience-card:hover {
+  border-color: var(--name-first);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04);
+  transform: translateY(-2px);
+}
+
+
+.exp-meta-col {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-right: 1px solid #eaeaea;
+  padding-right: 2.5rem;
+}
+
+.meta-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.meta-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--subtitle-gray);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.meta-value {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+
+.exp-details-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.exp-company {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--name-first);
+  margin: 0 0 0.3rem 0;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.exp-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--subtitle-gray);
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.exp-bullets {
+  margin: 0 0 2rem 0;
+  padding-left: 1.2rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.exp-bullets li {
+  margin-bottom: 0.6rem;
+}
+
+.exp-tools {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+
+}
+
+.tools-label {
+  color: #111827;
+}
+
+.tools-list {
+  color: var(--subtitle-gray);
+}
+
+
+/* =====================================
+FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
+========================================= */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #fffeff;
+  border-top: 1px solid var(--navbar-border-gray);
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.copyright {
+  color: var(--subtitle-gray);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+
+.social-link:hover {
+  transform: translateY(-2px);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.social-link:hover .social-icon {
+  opacity: 1;
+}

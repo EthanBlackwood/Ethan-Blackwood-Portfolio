@@ -37,13 +37,13 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="projects-section">
+    <section id="portfolio" className="projects-section">
       <div className="projects-container">
         
         <div className="projects-header">
           <div className="tech-subtitle-wrapper">
             <span className="tech-line"></span>
-            <span className="tech-subtitle">PROJECTS</span>
+            <span className="tech-subtitle">PORTFOLIO</span>
           </div>
           <h2 className="tech-title">
             Featured <span className="title-gray">Works</span>
