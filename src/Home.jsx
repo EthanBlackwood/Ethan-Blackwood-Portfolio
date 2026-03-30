@@ -33,7 +33,8 @@ const Home = () => {
             —— Student <span className="andsymbol">&</span> Developer
           </h3>
           <p className="header-blurb">
-            Translating my industry experience into reliable technical solutions. Junior at the University of South Carolina.
+            Translating my industry experience into reliable technical solutions. Junior at the
+            University of South Carolina.
           </p>
         </div>
 
