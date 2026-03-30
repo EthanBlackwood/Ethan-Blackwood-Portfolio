@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import contactBg from './assets/ContactBackground.png';
 
 const Contact = () => {
-  window.scrollTo(0, 0);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
 
