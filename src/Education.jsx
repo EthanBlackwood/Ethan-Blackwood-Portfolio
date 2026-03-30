@@ -4,24 +4,24 @@ const Education = () => {
   const experienceList = [
     {
       id: 1,
-      duration: "Aug 2024 — May 2028",
-      location: "Columbia, SC",
-      company: "University of South Carolina Honors College",
-      title: "Bachelor of Science in Computer Science",
+      duration: 'Aug 2024 — May 2028',
+      location: 'Columbia, SC',
+      company: 'University of South Carolina Honors College',
+      title: 'Bachelor of Science in Computer Science',
       bullets: [
-        "MINOR: Cybersecurity Operations",
-        "GPA: 3.77",
-        "Palmetto Fellows Scholar, 3x Dean's List, Honors College"
+        'MINOR: Cybersecurity Operations',
+        'GPA: 3.77',
+        "Palmetto Fellows Scholar, 3x Dean's List, Honors College",
       ],
-      tools: "DATA STRUCTURES & ALGORITHMS, SOFTWARE ENGINEERING, DATABASE SYSTEM DESIGN, COMPUTER ARCHITECTURE",
-      tools2: "SOFTWARE ENGINEERING, DATABASE SYSTEM DESIGN, COMPUTER ARCHITECTURE"//not used
-    }
+      tools:
+        'DATA STRUCTURES & ALGORITHMS, SOFTWARE ENGINEERING, DATABASE SYSTEM DESIGN, COMPUTER ARCHITECTURE',
+      tools2: 'SOFTWARE ENGINEERING, DATABASE SYSTEM DESIGN, COMPUTER ARCHITECTURE', //not used
+    },
   ];
 
   return (
     <section id="education" className="experience-section">
       <div className="experience-container">
-        
         <div className="experience-header">
           <div className="tech-subtitle-wrapper">
             <span className="tech-line"></span>
@@ -35,7 +35,6 @@ const Education = () => {
         <div className="experience-stack">
           {experienceList.map((job) => (
             <div key={job.id} className="experience-card">
-              
               <div className="exp-meta-col">
                 <div className="meta-block">
                   <span className="meta-label">DURATION</span>
@@ -50,26 +49,21 @@ const Education = () => {
               <div className="exp-details-col">
                 <h3 className="exp-company">{job.company}</h3>
                 <h4 className="exp-title">{job.title}</h4>
-                
+
                 <ul className="exp-bullets">
                   {job.bullets.map((bullet, index) => (
                     <li key={index}>{bullet}</li>
                   ))}
                 </ul>
-            
+
                 <div className="exp-tools">
                   <span className="tools-label">COURSEWORK : </span>
                   <span className="tools-list">{job.tools}</span>
                 </div>
-
-                
-
               </div>
-              
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

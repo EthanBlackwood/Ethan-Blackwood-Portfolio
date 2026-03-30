@@ -4,7 +4,6 @@ import linkedinIcon from './assets/LI-Icon.png';
 const Footer = () => {
   return (
     <footer className="footer">
-      
       <div className="nav-logo">
         <div className="logo-text-wrapper">
           <h2 className="nav-name">
@@ -18,12 +17,16 @@ const Footer = () => {
         <span className="copyright">
           © {new Date().getFullYear()} Ethan Blackwood. All rights reserved.
         </span>
-        
-        <a href="https://www.linkedin.com/in/ethan-blackwood/" target="_blank" rel="noopener noreferrer" className="social-link">
+
+        <a
+          href="https://www.linkedin.com/in/ethan-blackwood/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-link"
+        >
           <img src={linkedinIcon} alt="LinkedIn" className="social-icon" />
         </a>
       </div>
-      
     </footer>
   );
 };

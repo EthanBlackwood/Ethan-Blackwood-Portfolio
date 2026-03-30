@@ -2,16 +2,33 @@ import React from 'react';
 
 const Tech = () => {
   const skills = [
-    'React.js', 'Java', 'C++', 'Python', 'JavaScript', 'TypeScript', 
-    'HTML', 'CSS', 'SQL', 'Node.js', 'Figma', 'Jira', 
-    'WordPress', 'Next.js', 'Slack', 'Git', 'Microsoft Office', 'Github', 'MySQL', 
-    'Google Admin Console', 'Mosyle MDM', 'Unix/Linux'
+    'React.js',
+    'Java',
+    'C++',
+    'Python',
+    'JavaScript',
+    'TypeScript',
+    'HTML',
+    'CSS',
+    'SQL',
+    'Node.js',
+    'Figma',
+    'Jira',
+    'WordPress',
+    'Next.js',
+    'Slack',
+    'Git',
+    'Microsoft Office',
+    'Github',
+    'MySQL',
+    'Google Admin Console',
+    'Mosyle MDM',
+    'Unix/Linux',
   ];
 
   return (
     <section id="skills" className="tech-section">
       <div className="tech-container">
-        
         <div className="tech-header">
           <div className="tech-subtitle-wrapper">
             <span className="tech-line"></span>
@@ -29,7 +46,6 @@ const Tech = () => {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

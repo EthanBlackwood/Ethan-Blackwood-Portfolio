@@ -2,27 +2,22 @@
 
 :root {
   --font-main: 'Inter', sans-serif;
-  
+
   --nav-height: 70px;
-  
+
   --name-first: #18005c;
   --name-last: #9f9fa9;
 
   --text-gray: #4b5563;
   --navbar-border-gray: #e6e6e6;
   --subtitle-gray: #9f9fa9;
-  --soft-text-gray: #515151
-  --accent-line-gray: #eaeaea;
+  --soft-text-gray: #515151 --accent-line-gray: #eaeaea;
   --off-gray: #fafafa;
-
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    
   }
-
-  
 }
 
 a {
@@ -35,7 +30,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
 
-  font-family: var(--font-main); 
+  font-family: var(--font-main);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -59,8 +54,6 @@ NAVBAR NAVBAR NAVBAR NAVBAR
   z-index: 1000;
   border-bottom: 1px solid var(--navbar-border-gray);
   max-width: auto;
-  
- 
 }
 
 .nav-links {
@@ -87,11 +80,10 @@ NAVBAR NAVBAR NAVBAR NAVBAR
   flex-direction: column;
   align-items: flex-start;
   line-height: 1.2;
-  
 }
 
 .nav-name {
-  color: var(--name-first); 
+  color: var(--name-first);
   margin: 0;
   font-size: 1.2rem;
   font-weight: 900;
@@ -104,7 +96,7 @@ NAVBAR NAVBAR NAVBAR NAVBAR
 }
 
 .name-header {
-  color: var(--name-first); 
+  color: var(--name-first);
   margin: 0;
   font-size: 7rem;
   font-weight: 900;
@@ -113,8 +105,8 @@ NAVBAR NAVBAR NAVBAR NAVBAR
 .name-header-last {
   color: var(--name-last);
   font-weight: 900;
-  font-size:7rem;
-  display:block;
+  font-size: 7rem;
+  display: block;
   letter-spacing: -0.02em;
 }
 
@@ -127,7 +119,6 @@ NAVBAR NAVBAR NAVBAR NAVBAR
   margin-top: 2px;
   letter-spacing: 0.1em;
 }
-
 
 /*============================
 HEADER HEADER HEADER HEADER
@@ -147,7 +138,7 @@ HEADER HEADER HEADER HEADER
   font-weight: 400;
   margin: 0;
   padding-right: 1.5rem;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
 .header-blurb {
@@ -155,25 +146,22 @@ HEADER HEADER HEADER HEADER
   font-size: 1.1rem;
   line-height: 1.5;
   margin: 0;
-  padding-left:10%;
-  max-width: 450px; 
+  padding-left: 10%;
+  max-width: 450px;
 }
 
-.andsymbol{
+.andsymbol {
   color: var(--subtitle-gray);
   font-weight: 200;
   padding-left: 2%;
   padding-right: 2%;
-
 }
-
 
 .header-action-buttons {
   display: flex;
   gap: 1.5rem;
   margin-top: 2.5rem;
 }
-
 
 .header-action-buttons a {
   display: flex;
@@ -200,7 +188,6 @@ HEADER HEADER HEADER HEADER
   color: var(--name-first);
 }
 
-
 .btn-secondary {
   background-color: transparent;
   color: #333333;
@@ -216,34 +203,29 @@ HEADER HEADER HEADER HEADER
   width: 18px;
   height: 18px;
   margin-left: 8px;
-  transition: filter 0.3s ease; 
+  transition: filter 0.3s ease;
 }
 
 .btn-secondary:hover .btn-icon {
   filter: brightness(0) invert(1);
 }
 
-
-
-
 #header {
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-position: center;
-  
 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   max-width: auto;
-  
+
   padding-left: 2%;
   padding-top: 5%;
   box-sizing: border-box;
 }
-
 
 /*============================
 MISSION MISSION MISSION MISSION
@@ -258,19 +240,19 @@ MISSION MISSION MISSION MISSION
 .mission-container {
   display: flex;
   align-items: flex-start;
-  max-width:auto;
+  max-width: auto;
   margin: 0 auto;
   gap: 4rem;
 }
 
-.mission-image-col{
+.mission-image-col {
   display: flex;
   flex-direction: column;
 }
 
 .mission-text-col {
-  flex: 1; 
-  margin-top: 4rem; 
+  flex: 1;
+  margin-top: 4rem;
 }
 
 .mission-img {
@@ -279,7 +261,7 @@ MISSION MISSION MISSION MISSION
   border-radius: 0px;
   box-shadow: 0 10px 30px rgb(141, 141, 141);
   object-fit: cover;
-  aspect-ratio:3/4;
+  aspect-ratio: 3/4;
 }
 
 .mission-statement {
@@ -298,12 +280,11 @@ MISSION MISSION MISSION MISSION
   margin: 0;
 }
 
-
 .section-label {
   color: var(--name-first);
   font-size: 3rem;
   font-weight: 900;
-  
+
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -312,17 +293,14 @@ MISSION MISSION MISSION MISSION
   color: var(--name-last);
 }
 
-
-
-
 .mission-details {
   display: flex;
   flex-direction: row;
   gap: 4rem;
   margin-top: 3rem;
   padding: 1.5rem 0;
-  
-  border-top: 1px solid var(--accent-line-gray); 
+
+  border-top: 1px solid var(--accent-line-gray);
   border-bottom: 1px solid var(--accent-line-gray);
 }
 
@@ -345,8 +323,6 @@ MISSION MISSION MISSION MISSION
   font-size: 1.1rem;
   font-weight: 700;
 }
-
-
 
 /*============================
 TECH STACK TECH STACK TECH STACK TECH STACK
@@ -418,8 +394,8 @@ TECH STACK TECH STACK TECH STACK TECH STACK
   padding: 0.8rem 1.8rem;
   border-radius: 50px;
   border: 1px solid #e5e7eb;
-  
-  transition: all 0.3s ease; 
+
+  transition: all 0.3s ease;
   cursor: default;
 }
 
@@ -429,7 +405,6 @@ TECH STACK TECH STACK TECH STACK TECH STACK
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
-
 
 /*============================
 PROJECTS PROJECTS PROJECTS PROJECTS
@@ -485,7 +460,7 @@ PROJECTS PROJECTS PROJECTS PROJECTS
 
 .project-img {
   width: 100%;
-  
+
   aspect-ratio: 4/3;
   object-fit: cover;
   border-radius: 0px;
@@ -496,7 +471,6 @@ PROJECTS PROJECTS PROJECTS PROJECTS
 .project-card:hover .project-img {
   transform: scale(1.05);
 }
-
 
 .project-info {
   display: flex;
@@ -524,7 +498,6 @@ PROJECTS PROJECTS PROJECTS PROJECTS
   line-height: 1.5;
   margin: 0;
 }
-
 
 /*============================
 EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
@@ -555,7 +528,6 @@ EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
   margin: 0 auto;
 }
 
-
 .experience-card {
   display: flex;
   flex-direction: row;
@@ -565,7 +537,6 @@ EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
   padding: 2rem;
   gap: 2.5rem;
   transition: all 0.3s ease;
-  
 }
 
 .experience-card:hover {
@@ -573,7 +544,6 @@ EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04);
   transform: translateY(-2px);
 }
-
 
 .exp-meta-col {
   flex: 0 0 200px;
@@ -603,7 +573,6 @@ EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
   font-weight: 700;
   color: #111827;
 }
-
 
 .exp-details-col {
   flex: 1;
@@ -645,7 +614,6 @@ EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.1em;
-
 }
 
 .tools-label {
@@ -655,7 +623,6 @@ EXPERIENCE EXPERIENCE EXPERIENCE EXPERIENCE
 .tools-list {
   color: var(--subtitle-gray);
 }
-
 
 /* =====================================
 FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
@@ -688,7 +655,6 @@ FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
   transition: transform 0.2s ease;
 }
 
-
 .social-link:hover {
   transform: translateY(-2px);
 }
@@ -704,13 +670,12 @@ FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
   opacity: 1;
 }
 
-
 /* =========================================
    COTACT PAGE  CONTACT PAGE  CONTACT PAGE
    ========================================= */
 
 .contact-page {
-  min-height: calc(100vh - var(--nav-height)); 
+  min-height: calc(100vh - var(--nav-height));
   background-color: var(--name-first);
   color: #ffffff;
   padding: calc(var(--nav-height) + 4rem) 2rem 5rem 2rem;
@@ -760,7 +725,7 @@ FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
 }
 
 .form-group label {
-  color: var(--name-first); 
+  color: var(--name-first);
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -776,14 +741,14 @@ FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
   border: 1px solid #e2e8f0;
   border-radius: 0px;
   font-family: inherit;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   transition: border-color 0.3s ease;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--name-first); 
+  border-color: var(--name-first);
   background-color: #ffffff;
 }
 
@@ -802,7 +767,9 @@ FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
   margin-top: 1rem;
 }
 
@@ -810,4 +777,3 @@ FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
-

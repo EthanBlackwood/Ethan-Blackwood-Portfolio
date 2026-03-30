@@ -11,16 +11,12 @@ function App() {
       <Navigation />
 
       <Routes>
-        <Route path = "/" element = {<Home />} />     
-        <Route path = "/contact" element = {<Contact />} />
-        
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       <Footer />
     </Router>
-
-
-
   );
 }
 
