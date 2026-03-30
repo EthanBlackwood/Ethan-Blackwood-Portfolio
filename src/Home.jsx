@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import headerbackground from './assets/HeaderBackgroundImage2.png';
 import downloadIcon from './assets/downloadicon.png';
 import Mission from './Mission';
@@ -10,6 +10,19 @@ import Education from './Education';
 
 const Home = () => {
     
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
     return (
     <main style={{ paddingTop: 'var(--nav-height)' }}>
       
