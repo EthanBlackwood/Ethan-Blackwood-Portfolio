@@ -777,3 +777,117 @@ FOOTER  FOOTER  FOOTER  FOOTER  FOOTER
   transform: translateY(-2px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
+
+/* =========================================
+   MOBILE MOBILE MOBILE MOBILE MOBILE
+   ========================================= */
+
+/* Tablets*/
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 1rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+  }
+
+  .nav-name,
+  .name-last {
+    font-size: 1rem;
+  }
+
+  .mission-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .mission-text-col {
+    margin-top: 0;
+  }
+
+  .projects-section,
+  .experience-section,
+  .contact-page {
+    padding: 3rem 1.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .experience-card {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .exp-meta-col {
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    border-right: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-right: 0;
+    padding-bottom: 1.5rem;
+    gap: 1rem;
+  }
+
+  .exp-company {
+    font-size: 1.25rem;
+  }
+
+  .contact-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .contact-form {
+    padding: 2rem;
+  }
+
+  .name-header,
+  .name-header-last {
+    font-size: 4rem;
+  }
+
+  .header-sub-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+/*Phones*/
+@media (max-width: 480px) {
+  .name-header,
+  .name-header-last {
+    font-size: 3rem;
+  }
+
+  .header-sub-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .header-action-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .exp-meta-col {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

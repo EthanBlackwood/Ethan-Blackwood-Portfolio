@@ -18,7 +18,7 @@ const Experience = () => {
     {
       id: 2,
       duration: 'Aug 2023 — June 2024',
-      location: 'Rock Hill, SC',
+      location: 'Charlotte, NC',
       company: 'FRONTEND ENGINEERING INTERN',
       title: 'INTERPIXEL STUDIOS',
       bullets: [
@@ -31,7 +31,7 @@ const Experience = () => {
     {
       id: 3,
       duration: 'Aug 2023 — May 2024',
-      location: 'Fort Mill, SC',
+      location: 'Rock Hill, SC',
       company: 'IT TECHNICAL SUPPORT ASSISTANT',
       title: 'ST. ANNE CATHOLIC SCHOOL',
       bullets: [
