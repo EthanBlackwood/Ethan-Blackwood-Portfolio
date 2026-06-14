@@ -1,5 +1,5 @@
 import React from 'react';
-import placeholderImg from './assets/WebIcon.png';
+//import placeholderImg from './assets/WebIcon.png';
 import jobTrackerCover from './assets/JobAppProjectCoverPhoto.png';
 import pokemonCover from './assets/PokemonProjectCoverPhoto.png';
 import portfolioCover from './assets/EngineeringPortfolioCoverPhoto.png';
