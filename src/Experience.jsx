@@ -4,6 +4,19 @@ const Experience = () => {
   const experienceList = [
     {
       id: 1,
+      duration: 'May 2026 — Aug 2026',
+      location: 'Augusta, GA',
+      company: 'SOFTWARE ENGINEER INTERN',
+      title: 'TEXTRON',
+      bullets: [
+        'Developed full-stack software solutions on the PACE engineering team at Textron Specialized Vehicles.',
+        'Implemented features to support fleet management systems and improve vehicle telematics using real-time environmental conditions.',
+        'Utilized Azure DevOps to manage workflows, requirements, and collaboration across 3 engineering teams.',
+      ],
+      tools: 'Kotlin, Java, C#, SQL, Azure Devops, Microsoft SQL Server',
+    },
+    {
+      id: 2,
       duration: 'Aug 2025 — Dec 2025',
       location: 'Columbia, SC',
       company: 'TEACHING ASSISTANT',
@@ -13,23 +26,23 @@ const Experience = () => {
         'Led bi-weekly lab sessions, overseeing completion of the lab assignment to reinforce concepts from class.',
         'Conducted code reviews and guided students through the debugging processes to identify and resolve implementation errors.',
       ],
-      tools: 'Java, Github, Data Structures',
+      tools: 'Java, GitHub, Data Structures',
     },
     {
-      id: 2,
+      id: 3,
       duration: 'Aug 2023 — June 2024',
       location: 'Charlotte, NC',
-      company: 'FRONTEND ENGINEERING INTERN',
+      company: 'SOFTWARE ENGINEER INTERN',
       title: 'INTERPIXEL STUDIOS',
       bullets: [
         'Worked on a front-end team to deliver scalable, SEO optimized web applications using Next.js and React.',
         'Optimized applications for mobile viewing and performed cross-device QA testing, making web applications responsive and accessible.',
         'Managed project tasks in Jira, and UI/UX design in Figma to support Agile development cycles.',
       ],
-      tools: 'React.js, Next.js, CSS, HTML, Jira, Figma',
+      tools: 'React, Next.js, CSS, HTML, Jira, Figma',
     },
-    {
-      id: 3,
+    /*{
+      id: 4,
       duration: 'Aug 2023 — May 2024',
       location: 'Rock Hill, SC',
       company: 'IT TECHNICAL SUPPORT ASSISTANT',
@@ -40,7 +53,7 @@ const Experience = () => {
         'Enrolled new devices on Mosyle MDM at both middle and high school campuses, enabling secure, remote device management. ',
       ],
       tools: 'Mosyle MDM, macOS, Google Admin Console, RenWeb',
-    },
+    },*/
   ];
 
   return (

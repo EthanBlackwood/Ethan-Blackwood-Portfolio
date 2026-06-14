@@ -1,5 +1,6 @@
 import React from 'react';
 import linkedinIcon from './assets/LI-Icon.png';
+import githubIcon from './assets/GitHub_Invertocat_Black.png';
 
 const Footer = () => {
   return (
@@ -17,6 +18,15 @@ const Footer = () => {
         <span className="copyright">
           © {new Date().getFullYear()} Ethan Blackwood. All rights reserved.
         </span>
+
+        <a
+          href="https://github.com/EthanBlackwood"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-link"
+        >
+          <img src={githubIcon} alt="GitHub" className="social-icon" />
+        </a>
 
         <a
           href="https://www.linkedin.com/in/ethan-blackwood/"

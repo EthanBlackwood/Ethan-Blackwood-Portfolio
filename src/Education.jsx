@@ -10,8 +10,8 @@ const Education = () => {
       title: 'Bachelor of Science in Computer Science',
       bullets: [
         'MINOR: Cybersecurity Operations',
-        'GPA: 3.77',
-        "Palmetto Fellows Scholar, 3x Dean's List, Honors College",
+        'GPA: 3.83',
+        "Palmetto Fellows Scholar, 1x President's List, 3x Dean's List, Honors College",
       ],
       tools:
         'DATA STRUCTURES & ALGORITHMS, SOFTWARE ENGINEERING, DATABASE SYSTEM DESIGN, COMPUTER ARCHITECTURE',

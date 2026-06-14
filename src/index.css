@@ -252,8 +252,7 @@ MISSION MISSION MISSION MISSION
 ==============================*/
 
 .mission-section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 5rem 2rem;
   background-color: #ffffff;
 }
 
@@ -450,7 +449,7 @@ PROJECTS PROJECTS PROJECTS PROJECTS
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
