@@ -43,7 +43,7 @@ const Home = () => {
             Contact
           </Link>
 
-          <a href="/Placeholder.pdf" className="btn-secondary" download>
+          <a href="/EthanBlackwoodResume.pdf" className="btn-secondary" download>
             Resume <img src={downloadIcon} alt="Download Icon" className="btn-icon" />
           </a>
         </div>
